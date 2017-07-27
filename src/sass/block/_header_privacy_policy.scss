@@ -1,0 +1,32 @@
+.pr-pol-container {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  @include max-w(416px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  @include max-w(375px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.pr-pol-header-content {
+  text-align: right;
+
+  @include max-w(1344px) {
+    padding-right: 15px;
+  }
+
+  span {
+    color: #cc1c78;
+  }
+
+  a {
+    color: #cc1c78;
+    font-family: $font-family-bold;
+  }
+}

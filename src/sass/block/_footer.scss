@@ -1,0 +1,90 @@
+footer {
+	position: relative;
+	background-color: #4a4e7e;
+	padding-top: 29px;
+	padding-bottom: 40px;
+
+	nav {
+		max-width: 320px;
+		margin: 0 auto;
+		padding-left: 10px;
+		padding-right: 10px;
+		background-color: #4a4e7e;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@include max-w(414px) {
+         display: block;
+      }
+
+		a {
+			font-size: 16px;
+         line-height: 36px;
+         color: #ffffff;
+         transition: 0.5s;
+
+         @include max-w(414px) {
+            width: 100%;
+            display: block;
+            margin-bottom:  10px;
+            text-align: center;
+         }
+		}
+
+		a:hover {
+			color: #3ce3c7;
+			font-family: $font-family-bold;
+		}
+
+		span {
+			display: inline-block;
+			width: 1px;			
+			color: #fff;
+
+			@include max-w(414px) {
+            display: none;
+         }
+		}
+	}
+}
+
+.footer-content {
+	max-width: 1058px;
+	padding-top: 26px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 17px;
+
+	@include max-w(1040px) {
+      padding-right: 15px;
+      padding-left: 15px;
+   }
+
+   @include max-w(768px) {
+      max-width: 80%;
+   }
+
+   @include max-w(414px) {
+      max-width: 100%;
+      line-height: 24px;
+   }
+
+	p {
+		color: #ccccff;
+      font-size: 14px;
+
+      br {
+
+      	@include max-w(1040px) {
+            display: none;
+         }
+      }
+   }
+}
+
+
+.active-item {
+	color: #3ce3c7;
+   font-family: $font-family-bold;
+}

@@ -1,0 +1,27 @@
+// Кнопки
+
+.btn-check {
+  width: 233px;
+  padding-top: 21px;
+  padding-bottom: 19px;
+  padding-left: 0;
+  padding-right: 0;
+  border: none; 
+  border-radius: 30px;
+  background-color: #3ce3c7;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.15;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-check:hover {
+  background-color: #33c7ae;
+}
+
+.btn-check:focus {
+  outline: none;
+}

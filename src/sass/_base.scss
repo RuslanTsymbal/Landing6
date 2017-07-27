@@ -1,0 +1,60 @@
+//  Базовые стили
+
+html {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: $body-bg;
+  color: $text-color;
+	font-family: $font-family-regular;
+  font-weight: $font-weight;
+	font-size: $font-size;
+	line-height: $line-height;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+section {
+  position: relative;
+}
+
+.icon {
+  display: inline-block;
+}
+
+/////////////////////////
+
+.my-container {
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
